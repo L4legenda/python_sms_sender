@@ -39,6 +39,3 @@ def send_sms(phones, text, total_price=0):
         else:
             # СМС отправлен, ответ сервера
             return answer
-
-
-print(send_sms("79091455557", 'Текст сообщения'))
